@@ -1,73 +1,8 @@
 <html>
-<style>
-
-  body {
-    background: #bf7300;
-  }
-
-  .header {
-  }
-  .banner {
-    margin: 0 auto;
-    width: 300;
-    height: 200;
-    background: #bf7300;
-  }
-  .stuff {
-    height: 100;
-    font-family: "Arial";
-  font-size: 55px;  color: #fff;
-  }
-  .columns {
-  }
-  .left {
-    float: left;
-    width: 200;
-    height: 800;
-    background: green;
-  }
-  .right {
-    float: left;
-    width: 200;
-    height: 800;
-  }
-  .hbar {
-    height: 4;
-    background: white;
-  }
-
-  .stuff2 {
-    margin-left: 50;
-    height: 100;
-    width: 750;
-    text-shadow: 2px 2px 4px #000000;
-    font-family: "Arial";
-    font-weight: bold;      
-    font-size: 30px;  color: #ffffff;
-    
-  }
-  .fing {
-    color: blue;
-    transition: 1s;
-  }
-  .fing:hover {
-    background-color: #fff;
-    color: red;
-  }
-  .hbar2 {
-    width: 4;
-    height: 750;
-    background-color: #fff;
-    margin-left: 250;
-  }
-  h1 {
-  color: white;
-  text-shadow: 2px 2px 4px #000000;
-  }
-  marquee {
-    text-shadow: 2px 2px 4px #000000;
-  }
-</style>
+<head>
+  
+<!-- Typed.js -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 </head>
 <body>
 </style>
@@ -85,6 +20,30 @@
     <div class=stuff>
 
       <marquee>beepco site lel</marquee>
+      
+      <script>
+    function load() {
+      setTimeout(showPage, 2000);
+    }
+
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("main").style.display = "block";
+      var typer = new Typed('#typer', {
+        strings: ["> beepco site lel^250", "> Look at my trashy photoshop!^250"],
+        loop: true,
+        typeSpeed: 80,
+        backSpeed: 50,
+        cursorChar: '_',
+        smartBackspace: true,
+      });
+      var cursor = document.getElementsByClassName('typed-cursor');
+      for (var i = 0; i < cursor.length; i++) {
+        cursor[i].style.fontSize = "xx-large";
+      }
+    }
+  </script>
+      
     </div>
     <div class=hbar>
       &nbsp;
