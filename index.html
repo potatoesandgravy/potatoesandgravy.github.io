@@ -1,107 +1,51 @@
-<html>
-<style>
-
-  body {
-    background: #bf7300;
-  }
-
-  .header {
-  }
-  .banner {
-    margin: 0 auto;
-    width: 300;
-    height: 200;
-    background: #bf7300;
-  }
-  .stuff {
-    height: 100;
-    font-family: "Arial";
-  font-size: 55px;  color: #fff;
-  }
-  .columns {
-  }
-  .left {
-    float: left;
-    width: 200;
-    height: 800;
-    background: green;
-  }
-  .right {
-    float: left;
-    width: 200;
-    height: 800;
-  }
-  .hbar {
-    height: 4;
-    background: white;
-  }
-
-  .stuff2 {
-    margin-left: 50;
-    height: 100;
-    width: 750;
-    text-shadow: 2px 2px 4px #000000;
-    font-family: "Arial";
-    font-weight: bold;      
-    font-size: 30px;  color: #ffffff;
-    
-  }
-  .fing {
-    color: blue;
-    transition: 1s;
-  }
-  .fing:hover {
-    background-color: #fff;
-    color: red;
-  }
-  .hbar2 {
-    width: 4;
-    height: 750;
-    background-color: #fff;
-    margin-left: 250;
-  }
-  h1 {
-  color: white;
-  text-shadow: 2px 2px 4px #000000;
-  }
-  marquee {
-    text-shadow: 2px 2px 4px #000000;
-  }
-</style>
-</head>
-<body>
-</style>
-<body>
-  <div class=header>
-    <div class=hbar>
-      &nbsp;
-    </div>
-    <div class=banner>
-      <h1>*tom's crappy photoshop shtuff*</h1>  
-    </div>
-    <div class=hbar>
-      &nbsp;
-    </div>
-    <div class=stuff>
-
-      <marquee>beepco site lel</marquee>
-    </div>
-    <div class=hbar>
-      &nbsp;
-      <div class=hbar2>
-         &nbsp;
-       <div class=stuff2> 
-         <p>yo<br/></p>
-         <img src="research.png" width="500" height="200"><br/><br/>
-         <img src="rale.png" width="600" height="200"><br/><br/>
-         <img src="ele.jpg" width="208" height="205"><br/><br/>
-       </div>
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <!-- Title -->
+    <title>Beep Co. Ltd.</title>
+    <!-- CSS -->
+    <link href="/main.css" rel="stylesheet" type="text/css">    
+    <!-- Typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+  </head>
+  <body>
+    <body>
+      <div class=header>
+      <div class=hbar>
       </div>
-       <div class=hbar>
-         &nbsp;
-       </div>
-      <div class=right>
-      </div>        
-  </div>
-</body>
+      <div class=banner>
+        <h1>*tom's crappy photoshop shtuff*</h1>
+      </div>
+      <div class=hbar>
+      </div>
+      <br>
+      <br>
+      <div class=stuff>
+        <p style="display: inline;" id="typer"></p>
+        <script>
+          var typer = new Typed('#typer', {
+            strings: ["> beepco site lel^250", "> Look at my trashy photoshop!^250"],
+            loop: true,
+            typeSpeed: 80,
+            backSpeed: 50,
+            cursorChar: '_',
+            smartBackspace: true,
+          });
+        </script>
+      </div>
+      <div class=hbar>
+        <div class=hbar2>
+          <br>
+          <div class=stuff2>
+            <p>yo<br/></p>
+            <img src="research.png" width="500" height="200"><br/><br/>
+            <img src="rale.png" width="600" height="200"><br/><br/>
+            <img src="ele.jpg" width="208" height="205"><br/><br/>
+          </div>
+        </div>
+        <div class=hbar>
+        </div>
+        <br>
+      </div>
+  </body>
 </html>

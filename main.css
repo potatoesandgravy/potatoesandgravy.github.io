@@ -1,0 +1,74 @@
+body {
+  background: #bf7300;
+}
+
+.header {}
+
+.banner {
+  margin: 0 auto;
+  width: 300px;
+  height: 200px;
+  background: #bf7300;
+}
+
+.stuff {
+  height: 100px;
+  font-family: "Arial";
+  font-size: 55px;
+  color: #fff;
+}
+
+.columns {}
+
+.left {
+  float: left;
+  width: 200px;
+  height: 800px;
+  background: green;
+}
+
+.right {
+  float: left;
+  width: 200px;
+  height: 800px;
+}
+
+.hbar {
+  height: 4px;
+  background: white;
+}
+
+.stuff2 {
+  margin-left: 50px;
+  width: 750px;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: "Arial";
+  font-weight: bold;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.fing {
+  color: blue;
+  transition: 1s;
+}
+
+.fing:hover {
+  background-color: #fff;
+  color: red;
+}
+
+.hbar2 {
+  width: 4px;
+  background-color: #fff;
+  margin-left: 250px;
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+marquee {
+  text-shadow: 2px 2px 4px #000000;
+}
