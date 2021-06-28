@@ -7,12 +7,12 @@ body {
 .banner {
   margin: 0 auto;
   width: 300px;
-  height: 200px;
+  height: 60px;
   background: #303752;
 }
 
 .stuff {
-  height: 100px;
+  height: 40px;
   font-family: "Arial";
   font-size: 55px;
   color: #fff;
@@ -22,7 +22,7 @@ body {
 
 .left {
   float: left;
-  width: 200px;
+  width: 140px;
   height: 800px;
   background: green;
 }
