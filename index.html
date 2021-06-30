@@ -1,0 +1,68 @@
+<head>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+  <style>
+  h1 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 18px;
+    margin: 3px;
+    color: #008fb3;
+   }
+  p  {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 14px;
+    margin: 5px;
+    color: #666666;
+  }
+  h2 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 16px;
+    margin: 4px;
+    color: #00b36b;
+  }
+  </style>
+</head>
+
+<body bgcolor=#262626>
+  <h1>beepco ltd website<h1><br/>
+  <h2>hello world</h2>
+  <br/>
+  
+  <p>➦welcome to this site. I own it. my name is tomatomic and I well do stuff<br/>
+  I am not cool lol. I post stuff like files and links and I have another person<br/>
+  who works on this site lmao. I guess this is where I am going to post homework maybe<br/>
+  I will post again to this site when I get a password system for this lol.<br/>
+  ps this is like a diary thing soooo yeah.<br/>
+  <p>
+  
+  <p>
+  ➦oh yeah my social media is @timotomic on twitter, @re1ect on tiktok and<br/>
+  tomatomic 4021 on discord so yeah check those out lol<br/>
+  <p/>
+	
+  <!-- PASSCODE BEGIN -->
+  <script>
+	
+	// Uncomment the code below to get the special stuff representing a password (don't forget to comment the other code)
+//  function validateForm() {
+//	  var x = document.forms["passcode"]["code"].value;
+//	  if (x != "") {
+//		alert(CryptoJS.SHA256(x));
+//		return false;
+//	  }
+//	}
+	
+    function validateForm() {
+	  var x = document.forms["passcode"]["code"].value;
+	  if (x != "") {
+		window.location = CryptoJS.SHA256(x) + ".html";
+		return false;
+	  }
+	}
+	</script>
+  
+  <form name="passcode" onsubmit="validateForm(); return false;">
+  <p>Passcode: <input type="text" style="background-color: #363636; color: #FFFFFF" name="code">
+  <input type="submit" style="background-color: #363636; color: #FFFFFF" value="Submit"></p>
+  </form>
+  <!-- PASSCODE END -->
+</body>
